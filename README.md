@@ -47,7 +47,7 @@ submit.
     - Each controller should have at least 2 methods
         - Get all
         - Get by id
-- Document endpoints. ***(1 point)
+- Document endpoints. ***(1 point)***
     - Add to the README file the URI for each endpoint and a description (see example below)
 
 All URIs start with: `http://localhost:8080/api/v1`
