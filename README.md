@@ -1,4 +1,4 @@
-# CA02 - Booking API Part 1
+# CA03 - Booking API Part 1
 
 **Overview**: This project builds off last the assignment where you designed the Booking classes. You will create Parse
 database to hold some fake data. You will be creating a backend API to communicate with your Parse Database.
@@ -60,6 +60,6 @@ All URIs start with: `http://localhost:8080/api/v1`
 
 ### Stretch Stories
 
-- Create an endpoint that allows the used to sort descending or ascending. ***(5 points)***
+- Create an endpoint that allows the user to sort descending or ascending. ***(5 points)***
     - Add this by using a query string (ie, `http://localhost:8080/api/v1/product/?sort=asc`)
 
