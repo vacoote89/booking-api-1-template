@@ -1,7 +1,7 @@
 # CA03 - Booking API Part 1
 
-**Overview**: This project builds off last the assignment where you designed the Booking classes. You will create Parse
-database to hold some fake data. You will be creating a backend API to communicate with your Parse Database.
+**Overview**: This project builds off last the assignment where you designed the Booking classes. You will create Firebase
+database to hold some fake data. You will be creating a backend API to communicate with your Firebase Database.
 
 
 **Submission Instructions**:
@@ -39,9 +39,9 @@ submit.
 
 ### Required Stories
 
-- Create a Parse database your application. . ***(3 points)***
+- Create a Firebase database for your application. . ***(3 points)***
     - The names of class fields should match the names presented in the last coding assignment (this includes casing)-
-    - For user, do not delete the existing User table that Parse creates, simply add the additional fields
+    - Add a createdAt field to each table
     - Include sample data
 - Create an endpoint for each of the major classes (Hotel, Room, User) ***(6 points)***
     - Create the required models, controllers, and services
@@ -58,8 +58,9 @@ All URIs start with: `http://localhost:8080/api/v1`
 |`/product`|Retrieves all products| 
 |`/product/{id}`| Retrieves a specific product based on it's ID|
 
+Here is a link to the [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/) to update your README file.
 ### Stretch Stories
 
-- Create an endpoint that allows the user to sort descending or ascending. ***(5 points)***
+- Create an endpoint that allows the user to sort descending or ascending by the createdAt. ***(5 points)***
     - Add this by using a query string (ie, `http://localhost:8080/api/v1/product/?sort=asc`)
 
