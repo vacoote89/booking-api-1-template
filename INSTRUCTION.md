@@ -1,4 +1,4 @@
-# CA03 - Booking API Part 1
+# Booking API Part 1
 
 **Overview**: This project builds off last the assignment where you designed the Booking classes. You will create Firebase
 database to hold some fake data. You will be creating a backend API to communicate with your Firebase Database.
